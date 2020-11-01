@@ -1,0 +1,19 @@
+.new-collection__items {
+  max-width: 1040px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1379px) {
+  .new-collection__items {
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .new-collection__items {
+    width: 100%;
+  }
+}

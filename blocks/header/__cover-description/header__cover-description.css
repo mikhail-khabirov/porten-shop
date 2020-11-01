@@ -1,0 +1,23 @@
+.header__cover-description {
+  max-width: 730px;
+  font-family: 'PTSans', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 80px 0 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1108px) {
+  .header__cover-description {
+    max-width: 630px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__cover-description {
+    width: calc(100% - 2*10px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

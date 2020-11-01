@@ -1,0 +1,19 @@
+.footer__categories {
+  max-width: 300px;
+  margin-top: 80px;
+  margin-right: 92px;
+}
+
+@media screen and (max-width: 1108px) {
+  .footer__categories {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__categories {
+    width: calc(100% - 2*15px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

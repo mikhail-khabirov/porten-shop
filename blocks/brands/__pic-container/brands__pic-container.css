@@ -1,0 +1,21 @@
+.brands__pic-container {
+  max-width: 1108px;
+  display: grid;
+  grid-template-columns: repeat(4, 255px);
+  column-gap: 30px;
+  justify-content: center;
+  margin: 40px 0 80px;
+}
+
+@media screen and (max-width: 1108px) {
+  .brands__pic-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 255px));
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .brands__pic-container {
+    width: 100%;
+  }
+}

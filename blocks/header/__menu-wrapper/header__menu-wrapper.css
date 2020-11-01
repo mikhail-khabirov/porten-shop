@@ -1,0 +1,14 @@
+.header__menu-wrapper {
+  max-width: 1108px;
+  min-height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-wrapper {
+    width: calc(100% - 2*10px);
+  }
+}

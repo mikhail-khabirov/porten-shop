@@ -1,0 +1,17 @@
+@font-face {
+  src: url('./PTSans-Regular.woff') format('woff');
+  font-family: 'PTSans';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('./PlayfairDisplay-Regular.woff') format('woff');
+  font-family: 'PlayfairDisplay';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('./PlayfairDisplay-Bold.woff') format('woff');
+  font-family: 'PlayfairDisplay';
+  font-weight: 700;
+}

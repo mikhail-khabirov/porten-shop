@@ -1,0 +1,18 @@
+.old-collection__button {
+  width: 311px;
+  padding: 12px 27px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 61px;
+  color: #fff;
+  transition: opacity .5s ease-in-out;
+  cursor: pointer;
+}
+
+.old-collection__button:hover {
+  opacity: .5;
+}

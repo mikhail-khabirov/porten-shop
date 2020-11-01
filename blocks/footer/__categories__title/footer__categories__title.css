@@ -1,0 +1,8 @@
+.footer__categories-title {
+  font-family: 'PlayfairDisplay', 'Times New Roman', serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}

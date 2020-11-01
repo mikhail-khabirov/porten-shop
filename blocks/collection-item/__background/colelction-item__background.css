@@ -1,0 +1,7 @@
+.collection-item__background {
+  background-color: #191B1C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+}

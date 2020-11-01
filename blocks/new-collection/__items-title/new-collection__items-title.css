@@ -1,0 +1,23 @@
+.new-collection__items-title {
+  font-family: 'PlayfairDisplay';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin: 93px 0 0;
+}
+
+.new-collection__items-title::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #fff;
+  width: 120px;
+  height: 0;
+  margin: 50px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+  .new-collection__items-title {
+    margin-top: 40px;
+  }
+}

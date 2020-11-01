@@ -1,0 +1,21 @@
+.new-collection__button {
+  width: 138px;
+  padding: 12px 28px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 30px;
+  box-sizing: border-box;
+  transition: opacity .5s ease-in-out;
+  cursor: pointer;
+}
+
+.new-collection__button:hover {
+  opacity: .5;
+}
+

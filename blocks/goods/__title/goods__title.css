@@ -1,0 +1,23 @@
+.goods__title {
+  font-family: 'PlayfairDisplay', 'Times New Roman', serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin: 120px 0 0;
+  text-align: center;
+}
+
+.goods__title:after {
+  content: "";
+  width: 120px;
+  border-bottom: 1px solid #fff;
+  display: block;
+  margin: 40px auto 0;
+}
+
+@media screen and (max-width: 767px) {
+  .goods__title {
+    margin-top: 40px;
+  }
+}

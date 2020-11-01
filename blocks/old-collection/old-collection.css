@@ -1,0 +1,11 @@
+.old-collection {
+  display: flex;
+}
+
+@media screen and (max-width: 1379px) {
+  .old-collection {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+

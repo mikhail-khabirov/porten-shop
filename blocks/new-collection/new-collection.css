@@ -1,0 +1,10 @@
+.new-collection {
+  display: flex;
+}
+
+@media screen and (max-width: 1379px) {
+  .new-collection {
+    flex-direction: column;
+    align-items: center;
+  }
+}

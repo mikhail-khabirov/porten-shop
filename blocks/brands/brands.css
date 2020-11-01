@@ -1,0 +1,7 @@
+.brands {
+  background-color: #0F0F0F;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

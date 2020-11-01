@@ -1,0 +1,10 @@
+.new-collection__catalogue {
+  background-image: url('../../../images/collection-background.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

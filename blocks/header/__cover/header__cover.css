@@ -1,0 +1,15 @@
+.header__cover {
+  height: 810px;
+  background-image: url('../../../images/header-background.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .header__cover {
+    background-position: center;
+  }
+}
